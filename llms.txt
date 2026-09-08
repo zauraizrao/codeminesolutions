@@ -1,0 +1,24 @@
+# Codemine Solutions
+
+> Codemine Solutions provides digital design, web development, search engine optimization, digital marketing, truck dispatching, and real estate service support for businesses in the United States.
+
+## Services
+
+- [Graphic Design](https://www.codeminesolutions.com/work.html?category=Graphic%20Designing)
+- [Web Development](https://www.codeminesolutions.com/service.html?slug=web-development)
+- [Digital Marketing](https://www.codeminesolutions.com/service.html?slug=digital-marketing)
+- [Search Engine Optimization](https://www.codeminesolutions.com/service.html?slug=seo)
+- [Truck Dispatching](https://www.codeminesolutions.com/service.html?slug=truck-dispatching)
+- [Real Estate Services](https://www.codeminesolutions.com/service.html?slug=real-estate)
+
+## Important Pages
+
+- [Home](https://www.codeminesolutions.com/)
+- [Work Archive](https://www.codeminesolutions.com/work.html)
+- [Services](https://www.codeminesolutions.com/#services)
+- [Contact](https://www.codeminesolutions.com/#contact)
+- [Sitemap](https://www.codeminesolutions.com/sitemap.html)
+
+## Contact
+
+- Email: info@codeminesolutions.com

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# The branded 404 page is useful to visitors but should never be indexed.
+Disallow: /404.html
+
+Sitemap: https://www.codeminesolutions.com/sitemap.xml

@@ -1,0 +1,35 @@
+RewriteEngine On
+
+# Canonical host and protocol: https://www.codeminesolutions.com/
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.codeminesolutions\.com$ [NC]
+RewriteRule ^ https://www.codeminesolutions.com%{REQUEST_URI} [R=301,L,NE]
+
+# Consolidate the legacy standalone trucking landing page.
+RewriteRule ^trucking\.html$ /service.html?slug=truck-dispatching [R=301,L,NE]
+
+
+# Enable extensionless URLs (e.g. /work -> /work.html)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 month"
+</IfModule>

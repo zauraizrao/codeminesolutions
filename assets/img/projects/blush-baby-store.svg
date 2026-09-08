@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Blush Baby Store project cover</title>
+  <desc id="desc">Warm editorial placeholder with a simple baby product motif.</desc>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <path d="M1110 170c180 0 300 122 300 286s-120 286-300 286-300-122-300-286 120-286 300-286Z" fill="#F6F3EC"/>
+  <g fill="none" stroke="#C1531F" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+    <path d="M1010 365h205l-28 190H1038z"/>
+    <path d="M1047 365c0-62 34-105 65-105s65 43 65 105"/>
+    <circle cx="1065" cy="607" r="17"/><circle cx="1164" cy="607" r="17"/>
+  </g>
+  <text x="120" y="710" fill="#1A1A17" font-family="Georgia,serif" font-size="118">Blush Baby Store</text>
+  <text x="128" y="784" fill="#6B675E" font-family="Arial,sans-serif" font-size="30" letter-spacing="8">CUSTOM SHOPIFY PROJECT</text>
+</svg>
