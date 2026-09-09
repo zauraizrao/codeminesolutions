@@ -331,31 +331,31 @@ const WEB_PROJECTS = [
 
 const SEO_PROJECTS = [
   {
-    id: "seo-capital-bathrooms", slug: "seo-capital-bathrooms", title: "Capital Bathrooms", category: "Search Engine Optimization", year: "2024", client: "Capital Bathrooms", role: "Local SEO & Web Development", description: "Local-search strategy and website improvements focused on connecting Canberra bathroom-renovation customers with the business.", tag: "Local SEO · Canberra", date: "2024", image: "assets/img/projects/seo-capital-bathrooms.webp", url: "https://mediators.pk/portfolio/capital-bathrooms"
+    id: "seo-capital-bathrooms", slug: "seo-capital-bathrooms", title: "Capital Bathrooms", category: "Search Engine Optimization", year: "2024", client: "Capital Bathrooms", role: "Local SEO & Web Development", description: "Local-search strategy and website improvements focused on connecting Canberra bathroom-renovation customers with the business.", tag: "Local SEO · Canberra", date: "2024", image: "assets/img/projects/seo-capital-bathrooms.webp", previewOnly: true
   },
   {
-    id: "seo-rhowe-electric", slug: "seo-rhowe-electric", title: "Rhowe Electric", category: "Search Engine Optimization", year: "2025", client: "Rhowe Electric", role: "SEO, Web & Brand Refresh", description: "Search-focused web presence and brand refresh for an established Central Florida electrical contractor.", tag: "SEO · Electrical", date: "2025", image: "assets/img/projects/seo-rhowe-electric.webp", url: "https://mediators.pk/portfolio/rhowe-electric"
+    id: "seo-rhowe-electric", slug: "seo-rhowe-electric", title: "Rhowe Electric", category: "Search Engine Optimization", year: "2025", client: "Rhowe Electric", role: "SEO, Web & Brand Refresh", description: "Search-focused web presence and brand refresh for an established Central Florida electrical contractor.", tag: "SEO · Electrical", date: "2025", image: "assets/img/projects/seo-rhowe-electric.webp", previewOnly: true
   },
   {
-    id: "seo-harness-hvac", slug: "seo-harness-hvac", title: "Harness HVAC", category: "Search Engine Optimization", year: "2024", client: "Harness HVAC", role: "SEO & Website Optimization", description: "Targeted SEO and a user-focused website experience tailored to a growing HVAC company.", tag: "SEO · HVAC", date: "2024", image: "assets/img/projects/seo-harness-hvac.webp", url: "https://mediators.pk/portfolio/harness-hvac"
+    id: "seo-harness-hvac", slug: "seo-harness-hvac", title: "Harness HVAC", category: "Search Engine Optimization", year: "2024", client: "Harness HVAC", role: "SEO & Website Optimization", description: "Targeted SEO and a user-focused website experience tailored to a growing HVAC company.", tag: "SEO · HVAC", date: "2024", image: "assets/img/projects/seo-harness-hvac.webp", previewOnly: true
   },
   {
-    id: "seo-youth-insight", slug: "seo-youth-insight", title: "Youth Insight", category: "Search Engine Optimization", year: "2024", client: "Youth Insight", role: "SEO & Web Development", description: "A clearer, search-ready web presence built to help the organisation reach a wider online audience.", tag: "SEO · Education", date: "2024", image: "assets/img/projects/seo-youth-insight.webp", url: "https://mediators.pk/portfolio/youth-insight"
+    id: "seo-youth-insight", slug: "seo-youth-insight", title: "Youth Insight", category: "Search Engine Optimization", year: "2024", client: "Youth Insight", role: "SEO & Web Development", description: "A clearer, search-ready web presence built to help the organisation reach a wider online audience.", tag: "SEO · Education", date: "2024", image: "assets/img/projects/seo-youth-insight.webp", previewOnly: true
   },
   {
-    id: "seo-birds-valley", slug: "seo-birds-valley", title: "Birds Valley", category: "Search Engine Optimization", year: "2024", client: "Birds Valley", role: "SEO Strategy & On-Page Optimization", description: "Structured SEO work across priority pages to strengthen discoverability and organic search performance.", tag: "SEO · Content", date: "2024", image: "assets/img/projects/seo-birds-valley.webp", url: "https://mediators.pk/portfolio/birds-valley"
+    id: "seo-birds-valley", slug: "seo-birds-valley", title: "Birds Valley", category: "Search Engine Optimization", year: "2024", client: "Birds Valley", role: "SEO Strategy & On-Page Optimization", description: "Structured SEO work across priority pages to strengthen discoverability and organic search performance.", tag: "SEO · Content", date: "2024", image: "assets/img/projects/seo-birds-valley.webp", previewOnly: true
   },
   {
-    id: "seo-flavour-street", slug: "seo-flavour-street", title: "Flavour Street", category: "Search Engine Optimization", year: "2025", client: "Flavour Street", role: "Local SEO", description: "Local-search optimisation designed to help more customers discover the restaurant online.", tag: "Local SEO · Food", date: "2025", image: "assets/img/projects/seo-flavour-street.webp", url: "https://mediators.pk/portfolio/flavour-street"
+    id: "seo-flavour-street", slug: "seo-flavour-street", title: "Flavour Street", category: "Search Engine Optimization", year: "2025", client: "Flavour Street", role: "Local SEO", description: "Local-search optimisation designed to help more customers discover the restaurant online.", tag: "Local SEO · Food", date: "2025", image: "assets/img/projects/seo-flavour-street.webp", previewOnly: true
   },
   {
-    id: "seo-trends-insider", slug: "seo-trends-insider", title: "Trends Insider", category: "Search Engine Optimization", year: "2024", client: "Trends Insider", role: "SEO & Content Growth", description: "A combined website, SEO, social, and design engagement supporting a consistent, discoverable digital presence.", tag: "SEO · Publishing", date: "2024", image: "assets/img/projects/seo-trends-insider.webp", url: "https://mediators.pk/portfolio/trends-insider"
+    id: "seo-trends-insider", slug: "seo-trends-insider", title: "Trends Insider", category: "Search Engine Optimization", year: "2024", client: "Trends Insider", role: "SEO & Content Growth", description: "A combined website, SEO, social, and design engagement supporting a consistent, discoverable digital presence.", tag: "SEO · Publishing", date: "2024", image: "assets/img/projects/seo-trends-insider.webp", previewOnly: true
   },
   {
-    id: "seo-tafheem", slug: "seo-tafheem", title: "Tafheem", category: "Search Engine Optimization", year: "2025", client: "Tafheem", role: "SEO & Digital Presence", description: "Ongoing SEO alongside website, social, and design support to improve discoverability and brand consistency.", tag: "SEO · Education", date: "2025", image: "assets/img/projects/seo-tafheem.webp", url: "https://mediators.pk/portfolio/tafheem"
+    id: "seo-tafheem", slug: "seo-tafheem", title: "Tafheem", category: "Search Engine Optimization", year: "2025", client: "Tafheem", role: "SEO & Digital Presence", description: "Ongoing SEO alongside website, social, and design support to improve discoverability and brand consistency.", tag: "SEO · Education", date: "2025", image: "assets/img/projects/seo-tafheem.webp", previewOnly: true
   },
   {
-    id: "seo-ecommerce-business", slug: "seo-ecommerce-business", title: "Ecommerce Business", category: "Search Engine Optimization", year: "2024", client: "Ecommerce Business", role: "SEO & Conversion Support", description: "SEO, web, and paid-media support for an online business focused on practical, measurable growth.", tag: "SEO · Ecommerce", date: "2024", image: "assets/img/projects/seo-ecommerce-business.webp", url: "https://mediators.pk/portfolio/ecommerce-business"
+    id: "seo-ecommerce-business", slug: "seo-ecommerce-business", title: "Ecommerce Business", category: "Search Engine Optimization", year: "2024", client: "Ecommerce Business", role: "SEO & Conversion Support", description: "SEO, web, and paid-media support for an online business focused on practical, measurable growth.", tag: "SEO · Ecommerce", date: "2024", image: "assets/img/projects/seo-ecommerce-business.webp", previewOnly: true
   }
 ];
 
@@ -1304,7 +1304,7 @@ function renderWorkPage() {
   grid.innerHTML = PROJECTS.map((project, index) => {
     const hidden = initialCategory !== 'All' && project.category !== initialCategory;
     const imageSize = IMAGE_DIMENSIONS[project.image] || {};
-    const projectHref = project.url || `/project.html?slug=${project.slug}`;
+    const projectHref = project.previewOnly ? '' : (project.url || `/project.html?slug=${project.slug}`);
     const externalAttrs = project.url ? ' target="_blank" rel="noopener noreferrer"' : '';
     
     let subcategoryHtml = '';
@@ -1321,11 +1321,11 @@ function renderWorkPage() {
     return `
       ${subcategoryHtml}
       <div
-        class="project-work-card group cursor-pointer${hidden ? ' filter-hidden' : ''}"
+        class="project-work-card group${projectHref ? ' cursor-pointer' : ''}${hidden ? ' filter-hidden' : ''}"
         data-category="${project.category}"
         data-index="${index}"
       >
-        <a href="${projectHref}"${externalAttrs}>
+        ${projectHref ? `<a href="${projectHref}"${externalAttrs}>` : '<div>'}
           <div class="relative overflow-hidden aspect-[3/4] mb-6 bg-neutral-900 rounded-sm">
             ${project.image.endsWith('.mp4') ? `
               <video 
@@ -1355,7 +1355,7 @@ function renderWorkPage() {
             </div>
             <span class="text-xs font-mono text-neutral-600">${project.year}</span>
           </div>
-        </a>
+        ${projectHref ? '</a>' : '</div>'}
       </div>
     `;
   }).join('');
