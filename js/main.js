@@ -974,16 +974,19 @@ function initNavbar() {
 
   if (!nav) return;
 
-  // Scroll-aware background
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
+  // Scroll-aware background.
+  const updateNavOnScroll = () => {
+    const hasScrolled = window.scrollY > 50;
+    if (hasScrolled) {
       nav.classList.add('bg-neutral-950/80', 'backdrop-blur-md', 'py-4', 'border-b', 'border-white/5');
       nav.classList.remove('py-8', 'bg-transparent');
     } else {
       nav.classList.remove('bg-neutral-950/80', 'backdrop-blur-md', 'py-4', 'border-b', 'border-white/5');
       nav.classList.add('py-8', 'bg-transparent');
     }
-  }, { passive: true });
+  };
+  window.addEventListener('scroll', updateNavOnScroll, { passive: true });
+  updateNavOnScroll();
 
   // Mobile menu toggle
   function openMobileMenu() {
@@ -1028,6 +1031,23 @@ function initNavbar() {
       }
     });
   });
+}
+
+/* =========================================================
+   FOOTER SCROLL-TO-TOP
+   ========================================================= */
+function initFooterTopButton() {
+  const footer = document.querySelector('footer');
+  if (!footer) return;
+
+  const footerContent = footer.querySelector('.container, [class*="max-w-7xl"]') || footer;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'footer-top-btn';
+  button.setAttribute('aria-label', 'Scroll to top');
+  button.innerHTML = '<span>Back to top</span><span aria-hidden="true">↑</span>';
+  button.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  footerContent.append(button);
 }
 
 /* =========================================================
@@ -1847,6 +1867,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Universal
   initPreloader();
   initNavbar();
+  initFooterTopButton();
   initHeroMedia();
 
   if (page === 'home') {
