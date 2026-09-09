@@ -744,7 +744,8 @@ function initGsapAnimations() {
         start: 'top top',
         end: () => '+=' + Math.max(1, storyMedia.length - 1) * window.innerHeight,
         pin: true,
-        scrub: 1,
+        // Keep pinned scene transitions responsive when the user reverses scroll direction.
+        scrub: .35,
         anticipatePin: 1,
         invalidateOnRefresh: true
       }
@@ -792,7 +793,8 @@ function initGsapAnimations() {
         start: 'top top',
         end: () => '+=' + Math.max(1, panels.length - 1) * window.innerHeight,
         pin: true,
-        scrub: 1,
+        // Keep the project reel in sync with rapid reverse scrolling as well.
+        scrub: .35,
         anticipatePin: 1,
         invalidateOnRefresh: true,
         onUpdate: self => {
