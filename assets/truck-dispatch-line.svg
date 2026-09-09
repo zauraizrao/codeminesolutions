@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Line-art freight truck</title>
+  <desc id="desc">A white outline semi-truck and trailer</desc>
+  <g stroke="white" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="8">
+      <path d="M56 132h620v242H56z"/>
+      <path d="M676 169h116l120 111v94H676z"/>
+      <path d="M792 169v111h120"/>
+      <path d="M826 222h46l31 42h-77z"/>
+      <path d="M727 220h35v72h-35z"/>
+      <path d="M74 392h845"/>
+      <path d="M170 392v35m335-35v35m281-35v35"/>
+      <path d="M112 374v33m398-33v33m330-33v33"/>
+      <path d="M55 374h74m519 0h264"/>
+      <path d="M948 316h79l50 58h-129z"/>
+      <path d="M1077 374h51"/>
+      <path d="M56 108h620" opacity=".55"/>
+      <path d="M83 163h565" opacity=".5"/>
+      <path d="M709 138l55-46" opacity=".72"/>
+      <path d="M720 138l57 3" opacity=".72"/>
+    </g>
+    <g stroke-width="7">
+      <circle cx="188" cy="398" r="54"/>
+      <circle cx="188" cy="398" r="23"/>
+      <circle cx="372" cy="398" r="54"/>
+      <circle cx="372" cy="398" r="23"/>
+      <circle cx="777" cy="398" r="54"/>
+      <circle cx="777" cy="398" r="23"/>
+      <circle cx="930" cy="398" r="54"/>
+      <circle cx="930" cy="398" r="23"/>
+    </g>
+    <g stroke-width="6" opacity=".78">
+      <path d="M98 198h521M98 238h521M98 278h521M98 318h521"/>
+      <path d="M703 326h61M833 326h56"/>
+      <path d="M705 350h180"/>
+    </g>
+  </g>
+</svg>

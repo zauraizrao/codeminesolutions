@@ -848,6 +848,45 @@ function initGsapAnimations() {
         .to(previousPanel.querySelector('.cinematic-panel__image'), { scale: 1.1, duration: 1, ease: 'none' }, '<');
     });
   }
+
+  const dispatchShowcase = document.querySelector('[data-dispatch-showcase]');
+  if (dispatchShowcase) {
+    const truck = dispatchShowcase.querySelector('.dispatch-stage__truck');
+    const route = dispatchShowcase.querySelector('.dispatch-stage__route span');
+    const status = dispatchShowcase.querySelector('.dispatch-stage__status');
+    const serviceCards = dispatchShowcase.querySelectorAll('.dispatch-services-grid article');
+
+    // Start before the stage is fully in view so the truck visibly drives in,
+    // rather than fading into place when the visitor reaches the section.
+    gsap.fromTo(truck, { xPercent: -150 }, {
+      xPercent: 0,
+      duration: 2.15,
+      ease: 'power2.out',
+      scrollTrigger: { trigger: dispatchShowcase, start: 'top 95%', once: true }
+    });
+    gsap.fromTo(route, { scaleX: 0 }, {
+      scaleX: 1,
+      duration: .85,
+      ease: 'power2.out',
+      scrollTrigger: { trigger: dispatchShowcase, start: 'top 72%', once: true }
+    });
+    gsap.fromTo(status, { y: 14, opacity: 0 }, {
+      y: 0,
+      opacity: 1,
+      duration: .45,
+      delay: 1.25,
+      ease: 'power2.out',
+      scrollTrigger: { trigger: dispatchShowcase, start: 'top 95%', once: true }
+    });
+    gsap.fromTo(serviceCards, { y: 28, opacity: 0 }, {
+      y: 0,
+      opacity: 1,
+      duration: .55,
+      stagger: .08,
+      ease: 'power3.out',
+      scrollTrigger: { trigger: dispatchShowcase, start: 'top 62%', once: true }
+    });
+  }
   gsap.fromTo('#main-nav', { y: -34, opacity: 0 }, { y: 0, opacity: 1, duration: .85, ease: 'power3.out', delay: 1.82 });
   const heroContent = document.getElementById('hero-content');
   if (heroContent && !agencyStory) {
@@ -900,7 +939,7 @@ function initGsapAnimations() {
   gsap.utils.toArray('main img:not(.preloader-mark)').forEach(image => {
     // Archive cards already enter as a group. Do not give their images a second
     // clip-path animation: that can leave lazy-loaded thumbnails masked on load.
-    if (image.closest('.agency-story__media, .cinematic-panel, .project-work-card, .web-project-card')) return;
+    if (image.closest('.agency-story__media, .cinematic-panel, .project-work-card, .web-project-card, .dispatch-stage')) return;
     gsap.fromTo(image, { clipPath: 'inset(0 0 100% 0)', scale: 1.06 }, {
       clipPath: 'inset(0 0 0% 0)', scale: 1, duration: 1.05, ease: 'power3.inOut',
       scrollTrigger: { trigger: image, start: 'top 90%', once: true }
@@ -1664,6 +1703,38 @@ function renderServiceLanding() {
     </section>
   ` : '';
 
+  const truckDispatchHTML = service.slug === 'truck-dispatching' ? `
+    <section class="dispatch-showcase" data-dispatch-showcase aria-labelledby="dispatch-showcase-title">
+      <div class="dispatch-showcase__head">
+        <div>
+          <span class="font-mono text-xs uppercase tracking-widest text-neutral-500">Dispatch desk / always moving</span>
+          <h2 id="dispatch-showcase-title">Every mile, <em>accounted for.</em></h2>
+        </div>
+        <p>Reliable dispatch support that keeps the next load, the next update, and the next opportunity in view.</p>
+      </div>
+
+      <div class="dispatch-stage" aria-label="Truck dispatch motion illustration">
+        <div class="dispatch-stage__grid" aria-hidden="true"></div>
+        <div class="dispatch-stage__route" aria-hidden="true"><span></span></div>
+        <div class="dispatch-stage__status"><span class="dispatch-stage__pulse"></span> Dispatch active</div>
+        <div class="dispatch-stage__card">
+          <span>Next move</span>
+          <strong>Booked · Confirmed · Rolling</strong>
+        </div>
+        <img class="dispatch-stage__truck" src="assets/truck-dispatch-line.svg" alt="Line-art freight truck" width="1200" height="520" loading="eager" decoding="async" />
+      </div>
+
+      <div class="dispatch-services-grid">
+        <article><span>01</span><h3>Load Booking</h3><p>Find freight that fits your equipment, preferred lanes, and availability.</p></article>
+        <article><span>02</span><h3>Rate Negotiation</h3><p>Review opportunities and work toward rates that make each move worthwhile.</p></article>
+        <article><span>03</span><h3>Route Planning</h3><p>Plan pickups, deliveries, and backhauls with fewer unnecessary empty miles.</p></article>
+        <article><span>04</span><h3>Broker Coordination</h3><p>Keep appointments, load details, and day-to-day communication organised.</p></article>
+        <article><span>05</span><h3>Paperwork Support</h3><p>Manage rate confirmations, carrier packets, and dispatch documentation.</p></article>
+        <article><span>06</span><h3>Live Updates</h3><p>Stay informed with clear load status updates from booking through delivery.</p></article>
+      </div>
+    </section>
+  ` : '';
+
   container.innerHTML = `
     <a href="/#services" class="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-neutral-500 hover:text-white transition-colors mb-12">
       ${ICONS.arrowLeft} Back to Services
@@ -1701,6 +1772,8 @@ function renderServiceLanding() {
     </div>
 
     ${projectHTML}
+
+    ${truckDispatchHTML}
 
     <section class="reveal border-y border-white/10 py-20 text-center">
       <h2 class="text-4xl md:text-6xl font-medium tracking-tighter mb-6">Ready to move this forward?</h2>
