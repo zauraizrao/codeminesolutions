@@ -3,7 +3,7 @@
   <desc id="desc">Warm editorial placeholder with a simple baby product motif.</desc>
   <rect width="1600" height="1000" fill="#fff"/>
   <path d="M1110 170c180 0 300 122 300 286s-120 286-300 286-300-122-300-286 120-286 300-286Z" fill="#F6F3EC"/>
-  <g fill="none" stroke="#C1531F" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+  <g fill="none" stroke="#0B1F3A" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
     <path d="M1010 365h205l-28 190H1038z"/>
     <path d="M1047 365c0-62 34-105 65-105s65 43 65 105"/>
     <circle cx="1065" cy="607" r="17"/><circle cx="1164" cy="607" r="17"/>
