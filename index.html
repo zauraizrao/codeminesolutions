@@ -16,7 +16,7 @@
   <meta name="twitter:title" content="Codemine Solutions - Digital Design & Development Studio" />
   <meta name="twitter:description" content="Digital design, web development, SEO, marketing, truck dispatching, and real estate support for businesses in the United States." />
   <meta name="twitter:image" content="https://www.codeminesolutions.com/assets/logo.webp" />
-  <link rel="stylesheet" href="css/site.min.css?v=19" />
+  <link rel="stylesheet" href="css/site.min.css?v=20" />
   <!-- Favicon -->
   <link rel="icon" href="assets/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
@@ -62,7 +62,7 @@
   <link rel="preload" href="assets/video/agency-poster.webp" as="image" type="image/webp" fetchpriority="high" />
   <script src="js/vendor/gsap.min.js" defer></script>
   <script src="js/vendor/ScrollTrigger.min.js" defer></script>
-  <script src="js/main.min.js?v=22" defer></script>
+  <script src="js/main.min.js?v=23" defer></script>
 </head>
 <body class="bg-[#050505] text-white selection:bg-white/20 min-h-screen relative z-0" data-page="home">
   <!-- =====================================================
@@ -197,7 +197,7 @@
         <img src="assets/web-development-services.jpg" alt="A digital product being developed on a laptop" width="1600" height="1065" loading="eager" decoding="async" />
       </div>
       <div class="agency-story__media" data-story-scene="3">
-        <img src="assets/seo-services.jpg" alt="Creative social media lettering representing digital growth" width="1600" height="1200" loading="eager" decoding="async" />
+        <img src="assets/seo-analytics.jpg" alt="SEO performance analytics on a desk" width="1600" height="1067" loading="eager" decoding="async" />
       </div>
       
       <!-- Gradient/Dark overlay to ensure text readability -->
@@ -474,6 +474,93 @@
   </section>
 
   </main>
+
+  <!-- =====================================================
+       OFFICES SECTION
+       ===================================================== -->
+  <section id="offices" style="background:var(--color-dark-section);color:var(--color-dark-text);padding:4rem 1.5rem;border-top:1px solid rgba(246,243,236,0.08);">
+    <div class="container mx-auto">
+      <div style="margin-bottom:2.5rem;">
+        <span style="font-family:'Space Mono',monospace;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(246,243,236,0.5);">Our Locations</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;">
+
+        <!-- Canada -->
+        <div class="office-card office-card--canada" style="border-radius:1rem;border:1px solid rgba(246,243,236,0.12);background:rgba(246,243,236,0.04);padding:2rem;display:flex;flex-direction:column;gap:0.75rem;transition:border-color 0.3s;">
+          <h3 style="font-family:'Space Mono',monospace;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(246,243,236,0.5);margin:0;">Canada</h3>
+          <p style="font-size:1.125rem;font-weight:300;color:rgba(246,243,236,0.65);line-height:1.625;margin:0;">
+            3600 Hurontario St,<br>
+            Mississauga, ON L5B 4L8,<br>
+            Canada
+          </p>
+        </div>
+
+        <!-- USA -->
+        <div class="office-card office-card--usa" style="border-radius:1rem;border:1px solid rgba(246,243,236,0.12);background:rgba(246,243,236,0.04);padding:2rem;display:flex;flex-direction:column;gap:0.75rem;transition:border-color 0.3s;">
+          <h3 style="font-family:'Space Mono',monospace;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(246,243,236,0.5);margin:0;">USA</h3>
+          <p style="font-size:1.125rem;font-weight:300;color:rgba(246,243,236,0.65);line-height:1.625;margin:0;">
+            10703 Misting Falls Trail,<br>
+            Austin, TX 78759,<br>
+            USA
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <style>
+      #offices .office-card {
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+        background-color: var(--color-dark-section) !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        transition: border-color 0.3s ease;
+      }
+
+      #offices .office-card--canada {
+        background-image: url('https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&w=1200') !important;
+        background-position: center 62% !important;
+      }
+
+      #offices .office-card--usa {
+        background-image: url('https://images.pexels.com/photos/20185085/pexels-photo-20185085.jpeg?auto=compress&cs=tinysrgb&w=1200') !important;
+      }
+
+      #offices .office-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68));
+        transition: opacity 0.3s ease;
+      }
+
+      #offices .office-card > * {
+        position: relative;
+        z-index: 1;
+      }
+
+      #offices .office-card h3 {
+        color: rgba(246, 243, 236, 0.82) !important;
+      }
+
+      #offices .office-card p {
+        color: var(--color-dark-text) !important;
+      }
+
+      #offices .office-card:hover::before {
+        opacity: 0.84;
+      }
+
+      @media (max-width: 767px) {
+        #offices > .container > div:last-child {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    </style>
+  </section>
 
   <!-- =====================================================
        FOOTER + CONTACT SECTION

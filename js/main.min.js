@@ -412,7 +412,7 @@ const SERVICES = [
    {
     icon: ICONS.book,
     title: "E-Books",
-    slug: "E-Books",
+    slug: "e-books",
     description: "Full-service digital presence for agents and developers — listings, virtual tours, lead funnels, and market reports."
   }
 ];
@@ -486,9 +486,9 @@ const SERVICE_LANDINGS = [
     slug: "seo",
     title: "Search Engine Optimization",
     summary: "Technical SEO, content structure, and search visibility improvements for businesses that want qualified organic traffic.",
-    image: "assets/seo-services.jpg",
+    image: "assets/seo-analytics.jpg",
     imageWidth: 1600,
-    imageHeight: 1200,
+    imageHeight: 1067,
     cta: "Improve Search Visibility",
     sections: [
       {
@@ -574,6 +574,31 @@ const SERVICE_LANDINGS = [
         paragraphs: [
           "We help real estate brands show up consistently across listings, social campaigns, market reports, and digital collateral.",
           "The result is a stronger impression at every step, from first click to scheduled showing."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "e-books",
+    title: "E-Books",
+    summary: "Thoughtful e-book platforms and publishing experiences built to make digital content easy to discover, read, and share.",
+    image: "assets/img/projects/publishing-heaven.svg",
+    imageWidth: 1600,
+    imageHeight: 1000,
+    cta: "Start an E-Book Project",
+    sections: [
+      {
+        heading: "Publishing Experiences Built for Readers",
+        paragraphs: [
+          "We design and build e-book platforms that give authors, publishers, and readers a clear path from discovery to download.",
+          "Every experience is structured around approachable browsing, strong content presentation, and practical lead capture."
+        ]
+      },
+      {
+        heading: "Built for Content That Keeps Growing",
+        paragraphs: [
+          "From a focused launch page to a growing digital catalogue, we create flexible foundations that support new titles, campaigns, and audience touchpoints.",
+          "Publishing Heaven is one example of this approach in practice."
         ]
       }
     ]
@@ -1673,14 +1698,16 @@ function renderServiceLanding() {
     ? WEB_PROJECTS
     : service.slug === 'seo'
       ? SEO_PROJECTS
-      : [];
+      : service.slug === 'e-books'
+        ? WEB_PROJECTS.filter(project => project.id === 'web-publishing-heaven')
+        : [];
   const projectHTML = serviceProjects.length ? `
     <div id="service-project-reel-mount"></div>
     <section class="web-projects" aria-labelledby="web-projects-title">
       <div class="web-projects__head">
         <div>
           <span class="font-mono text-xs uppercase tracking-widest text-neutral-600">Selected Work</span>
-          <h2 id="web-projects-title" class="text-4xl md:text-6xl font-medium tracking-tighter mt-3">${service.slug === 'seo' ? 'SEO projects' : 'Web projects'}</h2>
+          <h2 id="web-projects-title" class="text-4xl md:text-6xl font-medium tracking-tighter mt-3">${service.slug === 'seo' ? 'SEO projects' : service.slug === 'e-books' ? 'E-Book projects' : 'Web projects'}</h2>
         </div>
       </div>
       <div class="web-projects__grid">
