@@ -258,20 +258,6 @@ const IMAGE_DIMENSIONS = {
 
 const WEB_PROJECTS = [
   {
-    id: "web-nexus-blend",
-    slug: "web-nexus-blend",
-    title: "Nexus Blend",
-    category: "Web Development",
-    year: "2025",
-    client: "Nexus Blend Studio",
-    role: "UI/UX Design & Development",
-    description: "Designed and developed the Nexus Blend Studio website using React.js and Next.js — modern, responsive, performance-optimized UX.",
-    tag: "React · Next.js",
-    date: "Jun 2025",
-    image: "assets/img/projects/nexus-blend.webp",
-    url: "https://www.nexusblendstudio.online/"
-  },
-  {
     id: "web-blush-baby-store",
     slug: "web-blush-baby-store",
     title: "Blush Baby Store",
