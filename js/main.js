@@ -383,18 +383,18 @@ const SERVICES = [
     slug: "seo",
     description: "Technical audits, content strategy, and authority building that move your rankings and drive qualified organic traffic."
   },
-  {
-    icon: ICONS.truck,
-    title: "Truck Dispatching",
-    slug: "truck-dispatching",
-    description: "Reliable end-to-end freight coordination — maximising load efficiency, minimising deadhead miles, and keeping drivers moving."
-  },
-  {
-    icon: ICONS.home,
-    title: "Real Estate Services",
-    slug: "real-estate",
-    description: "Full-service digital presence for agents and developers — listings, virtual tours, lead funnels, and market reports."
-  },
+  // {
+  //   icon: ICONS.truck,
+  //   title: "Truck Dispatching",
+  //   slug: "truck-dispatching",
+  //   description: "Reliable end-to-end freight coordination — maximising load efficiency, minimising deadhead miles, and keeping drivers moving."
+  // },
+  // {
+  //   icon: ICONS.home,
+  //   title: "Real Estate Services",
+  //   slug: "real-estate",
+  //   description: "Full-service digital presence for agents and developers — listings, virtual tours, lead funnels, and market reports."
+  // },
    {
     icon: ICONS.book,
     title: "E-Books",
@@ -500,70 +500,70 @@ const SERVICE_LANDINGS = [
       }
     ]
   },
-  {
-    slug: "truck-dispatching",
-    title: "Truck Dispatching",
-    summary: "Professional dispatch support for U.S. carriers, focused on load planning, broker communication, paperwork, and driver momentum.",
-    image: "assets/truck-dispatching-services.jpg",
-    imageWidth: 1600,
-    imageHeight: 1067,
-    cta: "Get Dispatch Support",
-    sections: [
-      {
-        heading: "Smarter Load and Route Planning",
-        paragraphs: [
-          "Finding a load is only one part of successful dispatching. A good dispatcher looks at the bigger picture, from pickup and delivery locations to route planning and backhaul opportunities.",
-          "Strategic planning can help reduce empty miles, improve utilization, and create a more consistent workflow for drivers and fleet owners."
-        ]
-      },
-      {
-        heading: "Handling Broker Communication",
-        paragraphs: [
-          "Running a trucking business involves constant communication with brokers and shippers. Rate inquiries, load details, appointment times, confirmations, paperwork, and updates can quickly become overwhelming when handled alone.",
-          "A professional dispatching team can manage these daily communications, allowing drivers to focus on the road while owners focus on the business."
-        ]
-      },
-      {
-        heading: "Built Around U.S. Carriers",
-        paragraphs: [
-          "We focus on equipment type, preferred lanes, availability, and individual business goals when searching for freight and planning loads.",
-          "Our goal is to take the stress out of dispatching so carriers can spend more time driving, delivering, and growing their business."
-        ]
-      }
-    ]
-  },
-  {
-    slug: "real-estate",
-    title: "Real Estate Services",
-    summary: "Digital presence, listing presentation, and lead-generation support for agents, developers, and property teams.",
-    image: "assets/real-estate-services.jpg",
-    imageWidth: 1600,
-    imageHeight: 1067,
-    cta: "Build Real Estate Presence",
-    sections: [
-      {
-        heading: "Present Properties With Confidence",
-        paragraphs: [
-          "Real estate decisions are visual, practical, and time-sensitive. Your digital presence should make listings easy to understand and easy to act on.",
-          "We create polished property pages, visual assets, and conversion paths that help buyers, renters, and investors move from interest to inquiry."
-        ]
-      },
-      {
-        heading: "Lead Funnels That Respect the Buyer Journey",
-        paragraphs: [
-          "From landing pages and forms to campaign assets and follow-up flows, we design around the questions prospects ask before they are ready to talk.",
-          "That structure gives agents and teams a clearer way to capture intent and prioritize serious opportunities."
-        ]
-      },
-      {
-        heading: "A More Professional Market Presence",
-        paragraphs: [
-          "We help real estate brands show up consistently across listings, social campaigns, market reports, and digital collateral.",
-          "The result is a stronger impression at every step, from first click to scheduled showing."
-        ]
-      }
-    ]
-  },
+  // {
+  //   slug: "truck-dispatching",
+  //   title: "Truck Dispatching",
+  //   summary: "Professional dispatch support for U.S. carriers, focused on load planning, broker communication, paperwork, and driver momentum.",
+  //   image: "assets/truck-dispatching-services.jpg",
+  //   imageWidth: 1600,
+  //   imageHeight: 1067,
+  //   cta: "Get Dispatch Support",
+  //   sections: [
+  //     {
+  //       heading: "Smarter Load and Route Planning",
+  //       paragraphs: [
+  //         "Finding a load is only one part of successful dispatching. A good dispatcher looks at the bigger picture, from pickup and delivery locations to route planning and backhaul opportunities.",
+  //         "Strategic planning can help reduce empty miles, improve utilization, and create a more consistent workflow for drivers and fleet owners."
+  //       ]
+  //     },
+  //     {
+  //       heading: "Handling Broker Communication",
+  //       paragraphs: [
+  //         "Running a trucking business involves constant communication with brokers and shippers. Rate inquiries, load details, appointment times, confirmations, paperwork, and updates can quickly become overwhelming when handled alone.",
+  //         "A professional dispatching team can manage these daily communications, allowing drivers to focus on the road while owners focus on the business."
+  //       ]
+  //     },
+  //     {
+  //       heading: "Built Around U.S. Carriers",
+  //       paragraphs: [
+  //         "We focus on equipment type, preferred lanes, availability, and individual business goals when searching for freight and planning loads.",
+  //         "Our goal is to take the stress out of dispatching so carriers can spend more time driving, delivering, and growing their business."
+  //       ]
+  //     }
+  //   ]
+  // },
+  // {
+  //   slug: "real-estate",
+  //   title: "Real Estate Services",
+  //   summary: "Digital presence, listing presentation, and lead-generation support for agents, developers, and property teams.",
+  //   image: "assets/real-estate-services.jpg",
+  //   imageWidth: 1600,
+  //   imageHeight: 1067,
+  //   cta: "Build Real Estate Presence",
+  //   sections: [
+  //     {
+  //       heading: "Present Properties With Confidence",
+  //       paragraphs: [
+  //         "Real estate decisions are visual, practical, and time-sensitive. Your digital presence should make listings easy to understand and easy to act on.",
+  //         "We create polished property pages, visual assets, and conversion paths that help buyers, renters, and investors move from interest to inquiry."
+  //       ]
+  //     },
+  //     {
+  //       heading: "Lead Funnels That Respect the Buyer Journey",
+  //       paragraphs: [
+  //         "From landing pages and forms to campaign assets and follow-up flows, we design around the questions prospects ask before they are ready to talk.",
+  //         "That structure gives agents and teams a clearer way to capture intent and prioritize serious opportunities."
+  //       ]
+  //     },
+  //     {
+  //       heading: "A More Professional Market Presence",
+  //       paragraphs: [
+  //         "We help real estate brands show up consistently across listings, social campaigns, market reports, and digital collateral.",
+  //         "The result is a stronger impression at every step, from first click to scheduled showing."
+  //       ]
+  //     }
+  //   ]
+  // },
   {
     slug: "e-books",
     title: "E-Books",
