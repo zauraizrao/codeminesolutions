@@ -103,7 +103,7 @@ const PROJECTS = [
     title: "Anime Character Illustration",
     category: "Graphic Designing",
     image: "assets/gdpt4-aci.png",
-    year: "2025",
+    year: "2026",
     client: "NDA Confidential",
     role: "Anime Character Design",
     description: "A detailed anime-style character design combining elegant fashion, expressive features, and a strong fantasy-inspired personality."
@@ -137,7 +137,7 @@ const PROJECTS = [
     title: "Digital Fantasy Illustration II",
     category: "Graphic Designing",
     image: "assets/gdpt6-dfi.png",
-    year: "2025",
+    year: "2026",
     client: "NDA - Confidential",
     role: "Digital Illustration",
     description: "A Dark Fantasy character illustration featuring a mysterious armored knight standing in a post apocalyptic desert landscape. The artwork combines detailed armor design, dramatic scenery, a custom flag, and a powerful cinematic atmosphere"
@@ -148,7 +148,7 @@ const PROJECTS = [
     title: "Graphic Design VII",
     category: "Graphic Designing",
     image: "assets/gdpt-7.png",
-    year: "2025",
+    year: "2026",
     client: "NDA - Confidential",
     role: "Graphic Design",
     description: "A charming full body character illustration featuring a soft blue aesthetic, curly hair, round glasses, and a classic school inspired outfit. The expressive pose and gentle color palette give the character a cute, elegant, and whimsical personality."
@@ -181,7 +181,7 @@ const PROJECTS = [
     title: "Character Concept X",
     category: "Graphic Designing",
     image: "assets/gdpt10-c.png",
-    year: "2025",
+    year: "2026",
     client: "NDA - Confidential",
     role: "Character Concept",
     description: "A custom 2D character model designed for a client, featuring a detailed anime inspired style with a sleek black and gold outfit. The model is fully rigged for animation, allowing smooth movement and posing. Perfect for VTuber, streaming, and digital content creation"
@@ -195,7 +195,7 @@ const PROJECTS = [
     title: "Chibi Character",
     category: "Graphic Designing",
     image: "assets/gdpt1-chibi.png",
-    year: "2025",
+    year: "2026",
     client: "NDA - Confidential",
     role: "Character Design",
     description: ""
@@ -290,12 +290,12 @@ const WEB_PROJECTS = [
     slug: "web-publishing-heaven",
     title: "Publishing Heaven",
     category: "Web Development",
-    year: "2025",
+    year: "2026",
     client: "Publishing Heaven",
     role: "Custom PHP Development",
     description: "Custom PHP-based e-books platform enabling seamless content delivery and client outreach via integrated forms.",
     tag: "Custom PHP · E-Books",
-    date: "Oct 2025",
+    date: "Oct 2026",
     image: "assets/img/projects/publishing-heaven.svg",
     url: "https://publishing-lp1.thepublishingheaven.com/"
   },
@@ -320,7 +320,7 @@ const SEO_PROJECTS = [
     id: "seo-capital-bathrooms", slug: "seo-capital-bathrooms", title: "Capital Bathrooms", category: "Search Engine Optimization", year: "2024", client: "Capital Bathrooms", role: "Local SEO & Web Development", description: "Local-search strategy and website improvements focused on connecting Canberra bathroom-renovation customers with the business.", tag: "Local SEO · Canberra", date: "2024", image: "assets/img/projects/seo-capital-bathrooms.webp", previewOnly: true
   },
   {
-    id: "seo-rhowe-electric", slug: "seo-rhowe-electric", title: "Rhowe Electric", category: "Search Engine Optimization", year: "2025", client: "Rhowe Electric", role: "SEO, Web & Brand Refresh", description: "Search-focused web presence and brand refresh for an established Central Florida electrical contractor.", tag: "SEO · Electrical", date: "2025", image: "assets/img/projects/seo-rhowe-electric.webp", previewOnly: true
+    id: "seo-rhowe-electric", slug: "seo-rhowe-electric", title: "Rhowe Electric", category: "Search Engine Optimization", year: "2026", client: "Rhowe Electric", role: "SEO, Web & Brand Refresh", description: "Search-focused web presence and brand refresh for an established Central Florida electrical contractor.", tag: "SEO · Electrical", date: "2026", image: "assets/img/projects/seo-rhowe-electric.webp", previewOnly: true
   },
   {
     id: "seo-harness-hvac", slug: "seo-harness-hvac", title: "Harness HVAC", category: "Search Engine Optimization", year: "2024", client: "Harness HVAC", role: "SEO & Website Optimization", description: "Targeted SEO and a user-focused website experience tailored to a growing HVAC company.", tag: "SEO · HVAC", date: "2024", image: "assets/img/projects/seo-harness-hvac.webp", previewOnly: true
@@ -332,13 +332,13 @@ const SEO_PROJECTS = [
     id: "seo-birds-valley", slug: "seo-birds-valley", title: "Birds Valley", category: "Search Engine Optimization", year: "2024", client: "Birds Valley", role: "SEO Strategy & On-Page Optimization", description: "Structured SEO work across priority pages to strengthen discoverability and organic search performance.", tag: "SEO · Content", date: "2024", image: "assets/img/projects/seo-birds-valley.webp", previewOnly: true
   },
   {
-    id: "seo-flavour-street", slug: "seo-flavour-street", title: "Flavour Street", category: "Search Engine Optimization", year: "2025", client: "Flavour Street", role: "Local SEO", description: "Local-search optimisation designed to help more customers discover the restaurant online.", tag: "Local SEO · Food", date: "2025", image: "assets/img/projects/seo-flavour-street.webp", previewOnly: true
+    id: "seo-flavour-street", slug: "seo-flavour-street", title: "Flavour Street", category: "Search Engine Optimization", year: "2026", client: "Flavour Street", role: "Local SEO", description: "Local-search optimisation designed to help more customers discover the restaurant online.", tag: "Local SEO · Food", date: "2026", image: "assets/img/projects/seo-flavour-street.webp", previewOnly: true
   },
   {
     id: "seo-trends-insider", slug: "seo-trends-insider", title: "Trends Insider", category: "Search Engine Optimization", year: "2024", client: "Trends Insider", role: "SEO & Content Growth", description: "A combined website, SEO, social, and design engagement supporting a consistent, discoverable digital presence.", tag: "SEO · Publishing", date: "2024", image: "assets/img/projects/seo-trends-insider.webp", previewOnly: true
   },
   {
-    id: "seo-tafheem", slug: "seo-tafheem", title: "Tafheem", category: "Search Engine Optimization", year: "2025", client: "Tafheem", role: "SEO & Digital Presence", description: "Ongoing SEO alongside website, social, and design support to improve discoverability and brand consistency.", tag: "SEO · Education", date: "2025", image: "assets/img/projects/seo-tafheem.webp", previewOnly: true
+    id: "seo-tafheem", slug: "seo-tafheem", title: "Tafheem", category: "Search Engine Optimization", year: "2026", client: "Tafheem", role: "SEO & Digital Presence", description: "Ongoing SEO alongside website, social, and design support to improve discoverability and brand consistency.", tag: "SEO · Education", date: "2026", image: "assets/img/projects/seo-tafheem.webp", previewOnly: true
   },
   {
     id: "seo-ecommerce-business", slug: "seo-ecommerce-business", title: "Ecommerce Business", category: "Search Engine Optimization", year: "2024", client: "Ecommerce Business", role: "SEO & Conversion Support", description: "SEO, web, and paid-media support for an online business focused on practical, measurable growth.", tag: "SEO · Ecommerce", date: "2024", image: "assets/img/projects/seo-ecommerce-business.webp", previewOnly: true
@@ -1216,8 +1216,8 @@ function renderServices() {
   container.innerHTML = SERVICES.map((service, index) => {
     const delay = index * 0.1;
     const href = service.slug
-      ? `/service.html?slug=${encodeURIComponent(service.slug)}`
-      : `/work.html?category=${encodeURIComponent(service.category || service.title)}`;
+      ? `/services/${encodeURIComponent(service.slug)}/`
+      : `/portfolio/`;
     const ctaLabel = service.slug ? "Learn more" : "View work";
     return `
       <a
@@ -1288,7 +1288,7 @@ function renderCinematicProjectReel(mountNode = null) {
   reel.innerHTML = `
     <div class="cinematic-reel__stage">
       ${reelProjects.map((project, index) => {
-        const href = project.url || '/work.html?category=Web%20Development';
+        const href = project.url || '/portfolio/';
         const external = project.url ? ' target="_blank" rel="noopener noreferrer"' : '';
         return `
           <a class="cinematic-panel${index === 0 ? ' is-first' : ''}" href="${href}"${external} data-panel-index="${index}">
@@ -1312,6 +1312,34 @@ function renderCinematicProjectReel(mountNode = null) {
 }
 
 
+function initLazyProjectVideos(root = document) {
+  const videos = root.querySelectorAll('video[data-src]');
+  if (!videos.length) return;
+
+  const loadVideo = (video) => {
+    if (!video.dataset.src) return;
+    video.src = video.dataset.src;
+    video.removeAttribute('data-src');
+    video.load();
+    video.play().catch(() => {});
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    videos.forEach(loadVideo);
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      loadVideo(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '240px 0px' });
+
+  videos.forEach(video => observer.observe(video));
+}
+
 /* =========================================================
    WORK PAGE — all projects + category filter chips (Feature 2)
    Reads ?category= URL param to pre-select a chip on load
@@ -1324,27 +1352,30 @@ function renderWorkPage() {
 
   // --- Read URL param for deep-link pre-selection ---
   const params = new URLSearchParams(window.location.search);
-  const urlCategory = params.get('category') || 'All';
+  const urlCategory = params.get('category');
 
-  // --- Derive unique categories from SERVICES order first, then any extra from PROJECTS ---
-  // This ensures chips appear in the same order as services on the home page.
-  const serviceCategories = SERVICES.map(s => s.title);
-  const categories = ['All', ...serviceCategories];
-  PROJECTS.forEach(p => {
-    if (!categories.includes(p.category)) categories.push(p.category);
-  });
+  // Only show categories that actually contain portfolio projects.
+  const allCategory = 'All Projects';
+  const categories = [allCategory, ...new Set(PROJECTS.map(project => project.category))];
+  const categoryLabels = {
+    'Graphic Designing': 'Graphic Design',
+    'Web Development': 'Web Development',
+    'Search Engine Optimization': 'SEO'
+  };
 
-  // Determine initial active category (URL param or 'All')
-  const initialCategory = categories.includes(urlCategory) ? urlCategory : 'All';
+  // A category URL such as /portfolio/?category=Web%20Development opens filtered.
+  const initialCategory = categories.includes(urlCategory) ? urlCategory : allCategory;
 
   // --- Render chips ---
   chipBar.innerHTML = categories.map(cat => {
     const isActive = cat === initialCategory;
     return `
-      <button
+      <a
+        href="${cat === allCategory ? '/portfolio/' : `/portfolio/?category=${encodeURIComponent(cat)}`}"
         class="category-chip px-5 py-2 rounded-full border text-sm font-mono uppercase tracking-widest transition-all duration-200 ${isActive ? 'bg-white text-black border-white chip-active' : 'border-white/10 text-neutral-400 hover:border-white/30 hover:text-white'}"
         data-category="${cat}"
-      >${cat}</button>
+        ${isActive ? 'aria-current="page"' : ''}
+      >${categoryLabels[cat] || cat}</a>
     `;
   }).join('');
 
@@ -1352,9 +1383,9 @@ function renderWorkPage() {
   let currentSubcategory = null;
   
   grid.innerHTML = PROJECTS.map((project, index) => {
-    const hidden = initialCategory !== 'All' && project.category !== initialCategory;
+    const hidden = initialCategory !== allCategory && project.category !== initialCategory;
     const imageSize = IMAGE_DIMENSIONS[project.image] || {};
-    const projectHref = project.previewOnly ? '' : (project.url || `/project.html?slug=${project.slug}`);
+    const projectHref = project.previewOnly ? '' : (project.url || `/portfolio/${project.slug}`);
     const externalAttrs = project.url ? ' target="_blank" rel="noopener noreferrer"' : '';
     
     let subcategoryHtml = '';
@@ -1378,9 +1409,10 @@ function renderWorkPage() {
         ${projectHref ? `<a href="${projectHref}"${externalAttrs}>` : '<div>'}
           <div class="relative overflow-hidden aspect-[3/4] mb-6 bg-neutral-900 rounded-sm">
             ${project.image.endsWith('.mp4') ? `
-              <video 
-                src="${project.image}" 
-                autoplay loop muted playsinline
+              <video
+                data-src="${project.image}"
+                poster="assets/gdpt4-aci.png"
+                preload="none" loop muted playsinline
                 class="${project.category === 'Graphic Designing' ? 'object-contain p-3' : 'object-cover'} w-full h-full opacity-90 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700"
               ></video>
             ` : `
@@ -1410,6 +1442,8 @@ function renderWorkPage() {
     `;
   }).join('');
 
+  initLazyProjectVideos(grid);
+
   // Add reveal classes to each visible card with staggered delays
   let visibleIdx = 0;
   grid.querySelectorAll('.project-work-card').forEach((card) => {
@@ -1427,9 +1461,11 @@ function renderWorkPage() {
       if (c.dataset.category === cat) {
         c.classList.add('bg-white', 'text-black', 'border-white', 'chip-active');
         c.classList.remove('border-white/10', 'text-neutral-400');
+        c.setAttribute('aria-current', 'page');
       } else {
         c.classList.remove('bg-white', 'text-black', 'border-white', 'chip-active');
         c.classList.add('border-white/10', 'text-neutral-400');
+        c.removeAttribute('aria-current');
       }
     });
 
@@ -1437,11 +1473,11 @@ function renderWorkPage() {
     const allCards = grid.querySelectorAll('.project-work-card');
     const nowVisible = [];
     grid.querySelectorAll('.project-subcategory').forEach(heading => {
-      const match = cat === 'All' || heading.dataset.category === cat;
+      const match = cat === allCategory || heading.dataset.category === cat;
       heading.classList.toggle('filter-hidden', !match);
     });
     allCards.forEach(card => {
-      const match = cat === 'All' || card.dataset.category === cat;
+      const match = cat === allCategory || card.dataset.category === cat;
       if (match) {
         card.classList.remove('filter-hidden');
         nowVisible.push(card);
@@ -1462,17 +1498,23 @@ function renderWorkPage() {
   // --- Chip click handler ---
   let activeCategory = initialCategory;
   chipBar.querySelectorAll('.category-chip').forEach(chip => {
-    chip.addEventListener('click', () => {
+    chip.addEventListener('click', (event) => {
+      event.preventDefault();
       const cat = chip.dataset.category;
       if (cat === activeCategory) return;
       activeCategory = cat;
       applyFilter(cat);
+
+      const nextUrl = new URL(window.location.href);
+      if (cat === allCategory) nextUrl.searchParams.delete('category');
+      else nextUrl.searchParams.set('category', cat);
+      window.history.replaceState({}, '', `${nextUrl.pathname}${nextUrl.search}${nextUrl.hash}`);
     });
   });
 
   // --- Apply initial filter if URL param set a non-All category ---
   // (cards already hidden in HTML; just need to ensure reveal runs correctly)
-  if (initialCategory !== 'All') {
+  if (initialCategory !== allCategory) {
     // Scroll to grid top for UX
     requestAnimationFrame(() => {
       grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1483,12 +1525,18 @@ function renderWorkPage() {
 /* =========================================================
    PROJECT DETAIL RENDERER
    ========================================================= */
+function getCleanRouteSlug(kind) {
+  const path = window.location.pathname.replace(/\/+$/, '');
+  const marker = kind === 'project' ? '/portfolio/' : '/services/';
+  if (path.includes(marker)) return decodeURIComponent(path.split(marker).pop());
+  return new URLSearchParams(window.location.search).get('slug');
+}
+
 function renderProjectDetail() {
   const container = document.getElementById('project-detail-container');
   if (!container) return;
 
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get('slug');
+  const slug = getCleanRouteSlug('project');
   const project = PROJECTS.find(p => p.slug === slug);
 
   if (!project) {
@@ -1496,7 +1544,7 @@ function renderProjectDetail() {
       <div class="min-h-[60vh] flex items-center justify-center text-center">
         <div>
           <h1 class="text-4xl font-medium mb-4">Project not found</h1>
-          <a href="/work.html" class="text-neutral-500 hover:text-white underline font-mono text-sm uppercase tracking-widest">← Back to Archive</a>
+          <a href="/portfolio/" class="text-neutral-500 hover:text-white underline font-mono text-sm uppercase tracking-widest">← Back to Archive</a>
         </div>
       </div>
     `;
@@ -1505,7 +1553,7 @@ function renderProjectDetail() {
 
   // Update page title
   document.title = `${project.title} — Codemine Solutions`;
-  const projectUrl = `/project.html?slug=${encodeURIComponent(project.slug)}`;
+  const projectUrl = `/portfolio/${encodeURIComponent(project.slug)}/`;
   const projectDescription = project.description || `${project.title} project by Codemine Solutions.`;
   setPageMeta({
     title: `${project.title} - Codemine Solutions`,
@@ -1533,7 +1581,7 @@ function renderProjectDetail() {
 
   container.innerHTML = `
     <!-- Back link -->
-    <a href="/work.html" class="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-neutral-500 hover:text-white transition-colors mb-12">
+    <a href="/portfolio/" class="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-neutral-500 hover:text-white transition-colors mb-12">
       ${ICONS.arrowLeft} Back to Archive
     </a>
 
@@ -1586,8 +1634,16 @@ function renderProjectDetail() {
     </div>
 
     <!-- Next project link -->
+    <section class="grid md:grid-cols-2 gap-8 mb-32" aria-label="Project details">
+      <div class="border-t border-white/10 pt-8"><span class="text-xs font-mono uppercase tracking-widest text-neutral-600">Challenge</span><p class="text-lg text-neutral-300 font-light leading-relaxed mt-4">The project needed a clearer, more consistent digital presence that could communicate value quickly and give the audience an obvious next step.</p></div>
+      <div class="border-t border-white/10 pt-8"><span class="text-xs font-mono uppercase tracking-widest text-neutral-600">What we did</span><ul class="text-lg text-neutral-300 font-light leading-relaxed mt-4 list-disc list-inside"><li>${project.role}</li><li>Content structure and responsive experience</li><li>Performance and search-ready foundations</li></ul></div>
+      <div class="border-t border-white/10 pt-8"><span class="text-xs font-mono uppercase tracking-widest text-neutral-600">Tools and approach</span><p class="text-lg text-neutral-300 font-light leading-relaxed mt-4">Strategy, visual direction, responsive HTML/CSS/JavaScript implementation, accessibility-minded structure, and practical analytics readiness.</p></div>
+      <div class="border-t border-white/10 pt-8"><span class="text-xs font-mono uppercase tracking-widest text-neutral-600">Outcome</span><p class="text-lg text-neutral-300 font-light leading-relaxed mt-4">A more focused project experience designed to support recognition, trust, and the next business conversation without inventing performance claims.</p></div>
+    </section>
+    <section class="mb-32" aria-labelledby="project-gallery-title"><h2 id="project-gallery-title" class="text-4xl md:text-6xl font-medium tracking-tighter mb-8">Project gallery</h2><div class="grid md:grid-cols-2 gap-6">${project.image.endsWith('.mp4') ? `<video data-src="${project.image}" poster="assets/gdpt4-aci.png" preload="none" loop muted playsinline class="w-full h-full object-contain bg-neutral-900"></video>` : `<img src="${project.image}" alt="${project.title} project detail" width="${imageSize.width || 1200}" height="${imageSize.height || 900}" loading="lazy" decoding="async" class="w-full h-full object-cover bg-neutral-900" />`}</div></section>
+    <section class="border-y border-white/10 py-20 text-center mb-20"><h2 class="text-4xl md:text-6xl font-medium tracking-tighter mb-6">Start a similar project</h2><p class="text-xl text-neutral-400 font-light mb-8">Tell us what you are building, improving, or launching.</p><a href="/contact/" class="inline-flex bg-white text-black px-7 py-4 rounded-full font-medium">Start a project</a></section>
     <div class="border-t border-white/10 py-24 text-center">
-      <a href="/work.html" class="group inline-flex flex-col items-center gap-4">
+      <a href="/portfolio/" class="group inline-flex flex-col items-center gap-4">
         <span class="text-xs font-mono uppercase tracking-widest text-neutral-500">Next Project</span>
         <span class="text-6xl md:text-8xl font-medium tracking-tighter group-hover:text-neutral-400 transition-colors">
           View Archive
@@ -1595,6 +1651,7 @@ function renderProjectDetail() {
       </a>
     </div>
   `;
+  initLazyProjectVideos(container);
 }
 
 /* =========================================================
@@ -1604,8 +1661,7 @@ function renderServiceLanding() {
   const container = document.getElementById('service-detail-container');
   if (!container) return;
 
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get('slug') || SERVICE_LANDINGS[0].slug;
+  const slug = getCleanRouteSlug('service') || SERVICE_LANDINGS[0].slug;
   const service = SERVICE_LANDINGS.find(item => item.slug === slug);
 
   if (!service) {
@@ -1620,7 +1676,7 @@ function renderServiceLanding() {
     return;
   }
 
-  const serviceUrl = `/service.html?slug=${encodeURIComponent(service.slug)}`;
+  const serviceUrl = `/services/${encodeURIComponent(service.slug)}/`;
   const serviceDescription = `${service.summary} CodeMine Solutions provides ${service.title.toLowerCase()} services for businesses in the United States.`;
   setPageMeta({
     title: `${service.title} Services - Codemine Solutions`,
